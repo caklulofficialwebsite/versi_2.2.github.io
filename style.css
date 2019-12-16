@@ -60,6 +60,10 @@ body{
     width: 100%;
 }
 
+.section1 .small-clow{
+    height: 300px;
+}
+
 .section1 p{
     margin-left: 20px;
 }
