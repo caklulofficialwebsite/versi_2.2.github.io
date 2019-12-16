@@ -1,434 +1,430 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="all.min.css">
-    <link rel="icon" type="image/png" href="img/Tumb.png">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="icon" type="image/png" href="img/Tumb.png">
 
-    <!-- SweetAlert -->
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+        <!-- SweetAlert -->
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
 
-    <title>Cak Lul Official Website</title>
-  </head>
+        <title>Cak Lul Official Website</title>
+    </head>
 
-  <body id="page-top">
+    <body id="page-top">
     
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand font-weight-bold" href="#page-top">CAK LUL OFFICIAL WEBSITE</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link js-scroll-trigger"  href="#daftar">DAFTAR <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#download">DOWNLOAD</a>
-                </li>
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         TUTORIAL
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">PHOTOSHOP</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">FL STUDIO</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">ANDROID STUDIO</a>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand font-weight-bold" href="#page-top">CAK LUL OFFICIAL WEBSITE</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link js-scroll-trigger"  href="#daftar">DAFTAR <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#download">DOWNLOAD</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             TUTORIAL
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">PHOTOSHOP</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">FL STUDIO</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">ANDROID STUDIO</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#artikel">ARTIKEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#kontak">KONTAK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="fix-multitransform">
+            <img src="Logo.png" class="alt-scale">
+            </div>
+        </div>
+
+        <!-- Article-->
+        <div id="artikel" class="carousel slide" data-ride="carousel">
+            <h1 class="text-center font-weight-bold mb-1">Artikel Terbaru</h1>
+            <ol class="carousel-indicators">
+                <li data-target="#artikel" data-slide-to="0" class="active"></li>
+                <li data-target="#artikel" data-slide-to="1" ></li>
+                <li data-target="#artikel" data-slide-to="2" ></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
+              
+                            <!-- Card Content -->
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                  <img src="img/artikel1.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Jalan Tol Layang Jakarta-Cikampek Terpanjang di Indonesia </h5>
+                                      <p class="card-text m-8">Presiden Joko Widodo akan meresmikan Jalan Tol Layang Jakarta - Cikampek II pada Kamis (12/12/2019) ... </p>
+                                      <a href="#" class="btn btn-success">READ MORE!</a>
+                                  </div>
+                                </div>
+                            </div>
+                  
+                            <div class="col-md-4">
+                                <div class="card mb-5">
+                                    <img src="img/artikel2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Selama Natal dan Tahun Baru, Lewat Jalan Tol ini Gratis. Perlu dicoba!</h5>
+                                        <p class="card-text m-8">  Anda dapat menghemat biaya tol, karena ada 4 ruas jalan bebas hambatan sepanjang 134,5 km yang difungsikan ... </p>
+                                        <a href="#" class="btn btn-success">READ MORE!</a>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                            <div class="col-md-4">
+                            <div class="card mb-5">
+                                <img src="img/artikel3.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jalan Tol Probolinggo-Banyuwangi Masih Terhambat Masalah Rute</h5>
+                                    <p class="card-text m-8"> Pembangunan Jalan Tol Probolinggo-Banyuwangi (Probowangi) masih terhambat perihal rute atau jalur lintasan ... </p>
+                                    <a href="#" class="btn btn-success">READ MORE!</a>
+                                </div>
+                            </div>
+                            </div>
+              
                         </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#artikel">ARTIKEL</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#kontak">KONTAK</a>
-                </li>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
+              
+                            <!-- Card Content -->
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                      <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                  
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                  
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+              
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
+                  
+                            <!-- Card Content -->
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                      
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div> 
+                      
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                  
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#artikel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#artikel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- End Of Article -->
+
+        <!-- Section -->
+        <section>
+            <div class="section1">
+                <div class="row ml-3 mr-3 ">
+                    <img src="Logo.png" alt="" class="col-sm-3 small-clow">
+                    <!-- <video src="video/v1.mp4" class="col-sm-3" autoplay></video> -->
+                    <div class="col-sm-9 ">
+
+                        <h1 class="font-weight-bold mt-3 mb-4">Kisah Berdirinya Cak Lul Official Website</h1>
+                        <p>Seseorang yang berjuang dan memiliki impian yang sangat besar. Namun, Ia kesulitan. Karena ia kesepian disana... setelah beberapa bulan kemudian, Ia menemukan beberapa teman yang siap mendukung impiannya kedepan.. </p>
+                        <p>Namaku Syahrul Afandi. Kisahku Bermula di SMK Negeri 2 Buduran. Aku memilih  jurusan RPL karena ingin menjadi seorang Programmer dan Web Designer. Disinilah aku bertemu dengan mereka yang bersedia membantuku dalam mewujdkan impianku..</p>
+
+                        <a href="#" class="btn btn-success rounded float-right mt-3 mb-4">READ MORE!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Section -->
+
+        <!-- How to make media alignment 
+
+        <div class="media">
+            <img src="Logo.png" class="align-self-center mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Center-aligned media</h5>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div> -->
+
+        <!-- Gallery -->
+        <div id="Gallery" class="carousel slide" data-ride="carousel">
+            <h1 class="text-center font-weight-bold mt-2 mb-1">Tentang Developer</h1>
+            <ol class="carousel-indicators">
+                <li data-target="#Gallery" data-slide-to="0" class="active"></li>
+                <li data-target="#Gallery" data-slide-to="1"></li>
+                <li data-target="#Gallery" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
+
+                            <!-- Card Content -->
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="img/caklul.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Muhammad Syahrul Afandi </h5>
+                                        <p class="card-text m-8">Dialah Founder dari website ini, Namun dia juga perlu rekan untuk membangun website ini ... </p>
+                                        <a href="#" class="btn btn-success">READ MORE!</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-5">
+                                    <img src="img/fafa.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Alfandityo Kriegersneiger</h5>
+                                        <p class="card-text m-8"> Remaja berumur 17 Tahun ini mendalami ilmu tentang apa yang dipelajari oleh adolf hitler ... </p>
+                                        <a href="#" class="btn btn-success">READ MORE!</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-5">
+                                    <img src="img/ananta-cropped.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ananta Nabilah Septiantoro </h5>
+                                        <p class="card-text m-8"> Pemuda santuy dan suka tewas di kelas. Namun, Dia memiliki semangat yang luar biasa di bidang IT ...</p>
+                                        <a href="#" class="btn btn-success">READ MORE!</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
+
+                        <!-- Card Content -->
+                        <div class="col-md-4 ">
+                            <div class="card mb-5">
+                                <img src="Logo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mochammad Enrique Lazuardi R </h5>
+                                    <p class="card-text m-8">Ingin menjadikan yang tidak mungkin menjadi mungkin dan memiliki tekad besar di bidang IT ... </p>
+                                    <a href="#" class="btn btn-success">READ MORE!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-5">
+                                <img src="Logo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Qolbi Adi Lumintang</h5>
+                                    <p class="card-text m-8"> Seorang yang aktif dalam segala hal dan HP Blackcherry adalah kesukaannya apalagi yang RAM nya 6GB :) ... </p>
+                                    <a href="#" class="btn btn-success">READ MORE!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-5">
+                                <img src="Logo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jaihan Abidin </h5>
+                                    <p class="card-text m-8"> Ia Tak ingin banyak komentar. Lebih banyak tindakan daripada bicara serta pantang menyerah adalah motto yang dia sukai ... </p>
+                                <a href="#" class="btn btn-success">READ MORE!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <!-- Card Container -->
+                    <div class="container">
+                        <div class="row mt-3">
                 
-              </ul>
-            </div>
-        </div>
-    </nav>
+                            <!-- Card Content -->
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Abdul Kharis Ardiansyah</h5>
+                                        <p class="card-text m-8">Entah dia adalah seorang Hacker atau pencoba membobol situs *****. Tapi dia suka melakukan hal di terminal laptopnya ... </p>
+                                        <a href="#" class="btn btn-success">READ MORE!</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8"> Ut rebum ea sea ipsum diam rebum kasd consetetur ea et. Magna et duo vero nonumy est. Dolor dolore sadipscing.<br>
+                                        Akan ada developer baru disini. Sambut dengan baik ya??  </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-        <img src="Logo.png">
-    </div>
-
-    <!-- Article-->
-    <div id="artikel" class="carousel slide" data-ride="carousel">
-      <h1 class="text-center font-weight-bold mb-1">Artikel Terbaru</h1>
-      <ol class="carousel-indicators">
-        <li data-target="#artikel" data-slide-to="0" class="active"></li>
-        <li data-target="#artikel" data-slide-to="1" ></li>
-        <li data-target="#artikel" data-slide-to="2" ></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-
-          <!-- Card Container -->
-          <div class="container">
-            <div class="row mt-3">
-      
-              <!-- Card Content -->
-              <div class="col-md-4 ">
-                  <div class="card mb-5">
-                      <img src="img/artikel1.jpeg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Jalan Tol Layang Jakarta-Cikampek Terpanjang di Indonesia </h5>
-                          <p class="card-text m-8">Presiden Joko Widodo akan meresmikan Jalan Tol Layang Jakarta - Cikampek II pada Kamis (12/12/2019) ... </p>
-                          <a href="#" class="btn btn-success">READ MORE!</a>
-                      </div>
-                  </div>
-              </div>
-      
-              <div class="col-md-4">
-                <div class="card mb-5">
-                    <img src="img/artikel2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Selama Natal dan Tahun Baru, Lewat Jalan Tol ini Gratis. Perlu dicoba!</h5>
-                        <p class="card-text m-8">  Anda dapat menghemat biaya tol, karena ada 4 ruas jalan bebas hambatan sepanjang 134,5 km yang difungsikan ... </p>
-                        <a href="#" class="btn btn-success">READ MORE!</a>
+                            <div class="col-md-4 ">
+                                <div class="card mb-5">
+                                    <img src="Logo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coming Soon</h5>
+                                        <p class="card-text m-8"> Ut rebum ea sea ipsum diam rebum kasd consetetur ea et. Magna et duo vero nonumy est. Dolor dolore sadipscing.<br>
+                                        Akan ada developer baru disini. Sambut dengan baik ya??  </p>
+                                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
                     </div>
-                </div>
-              </div>
-      
-              <div class="col-md-4">
-                <div class="card mb-5">
-                    <img src="img/artikel3.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Jalan Tol Probolinggo-Banyuwangi Masih Terhambat Masalah Rute</h5>
-                        <p class="card-text m-8"> Pembangunan Jalan Tol Probolinggo-Banyuwangi (Probowangi) masih terhambat perihal rute atau jalur lintasan ... </p>
-                        <a href="#" class="btn btn-success">READ MORE!</a>
-                    </div>
-                </div>
-             </div>
-      
-            </div>
-          </div>
-        </div>
 
-        <div class="carousel-item">
-
-            <!-- Card Container -->
-          <div class="container">
-            <div class="row mt-3">
-      
-              <!-- Card Content -->
-              <div class="col-md-4 ">
-                  <div class="card mb-5">
-                      <img src="Logo.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Coming Soon</h5>
-                          <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                          <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                      </div>
-                  </div>
-              </div>
-      
-              <div class="col-md-4 ">
-                <div class="card mb-5">
-                    <img src="Logo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming Soon</h5>
-                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                    </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#Gallery" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#Gallery" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- End of Gallery -->
+
+
+        <!-- Footer -->
+        <section>
+            <div class="section2">
+                <p>Create by CLOW. Registered since 2018</p>
+            </div>
+        </section>
+        <!-- End of Footer -->
+
       
-            <div class="col-md-4 ">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Coming Soon</h5>
-                      <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                      <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                  </div>
-              </div>
-          </div>
-      
-            </div>
-          </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="cdn/jquery-3.3.1.slim.min.js"></script>
+        <script src="cdn/popper.min.js"></script>
+        <script src="cdn/bootstrap.min.js"></script>
+    </body>
 
-        </div>
-
-        <div class="carousel-item">
-
-           <!-- Card Container -->
-           <div class="container">
-            <div class="row mt-3">
-      
-              <!-- Card Content -->
-              <div class="col-md-4 ">
-                <div class="card mb-5">
-                    <img src="Logo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming Soon</h5>
-                        <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                        <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                    </div>
-                </div>
-             </div>
-      
-             <div class="col-md-4 ">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Coming Soon</h5>
-                      <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                      <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                  </div>
-              </div>
-            </div> 
-      
-            <div class="col-md-4 ">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Coming Soon</h5>
-                      <p class="card-text m-8">Sabar ya,, Kita masih menyiapkan artikel terbaik untuk kamu ;) </p>
-                      <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                  </div>
-              </div>
-            </div>
-      
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#artikel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#artikel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- End Of Article -->
-
-    <!-- Section -->
-    <section>
-      <div class="section1">
-
-        <div class="row ml-3 mr-3 ">
-          <img src="Logo.png" alt="" class="col-sm-3 small-clow">
-          <!-- <video src="video/v1.mp4" class="col-sm-3" autoplay></video> -->
-          <div class="col-sm-9 ">
-            <h1 class="font-weight-bold mt-3 mb-4">Kisah Berdirinya Cak Lul Official Website</h1>
-            <p>
-              Seseorang yang berjuang dan memiliki impian yang sangat besar. Namun, Ia kesulitan. Karena ia kesepian disana... setelah beberapa bulan kemudian, Ia menemukan beberapa teman yang siap mendukung impiannya kedepan.. 
-            </p>
-            <p>
-            Namaku Syahrul Afandi. Kisahku Bermula di SMK Negeri 2 Buduran. Aku memilih  jurusan RPL karena ingin menjadi seorang Programmer dan Web Designer. Disinilah aku bertemu dengan mereka yang bersedia membantuku dalam mewujdkan impianku..
-            </p>
-            <a href="#" class="btn btn-success rounded float-right mt-3 mb-4">READ MORE!</a>
-          </div>
-        </div>
-
-        
-      </div>
-    </section>
-    <!-- End of Section -->
-
-    <!-- How to make media alignment 
-
-    <div class="media">
-        <img src="Logo.png" class="align-self-center mr-3" alt="...">
-        <div class="media-body">
-          <h5 class="mt-0">Center-aligned media</h5>
-          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-          <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-      </div> -->
-
-  <!-- Gallery -->
-  <div id="Gallery" class="carousel slide" data-ride="carousel">
-    <h1 class="text-center font-weight-bold mt-2 mb-1">Tentang Developer</h1>
-    <ol class="carousel-indicators">
-      <li data-target="#Gallery" data-slide-to="0" class="active"></li>
-      <li data-target="#Gallery" data-slide-to="1"></li>
-      <li data-target="#Gallery" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-
-        <!-- Card Container -->
-        <div class="container">
-          <div class="row mt-3">
-    
-            <!-- Card Content -->
-            <div class="col-md-4 ">
-                <div class="card mb-5">
-                    <img src="img/caklul.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Muhammad Syahrul Afandi </h5>
-                        <p class="card-text m-8">Dialah Founder dari website ini, Namun dia juga perlu rekan untuk membangun website ini ... </p>
-                        <a href="#" class="btn btn-success">READ MORE!</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-md-4">
-              <div class="card mb-5">
-                  <img src="img/fafa.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Alfandityo Kriegersneiger</h5>
-                      <p class="card-text m-8"> Remaja berumur 17 Tahun ini mendalami ilmu tentang apa yang dipelajari oleh adolf hitler ... </p>
-                      <a href="#" class="btn btn-success">READ MORE!</a>
-                  </div>
-              </div>
-            </div>
-    
-            <div class="col-md-4">
-              <div class="card mb-5">
-                  <img src="img/ananta.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Ananta Nabilah Septiantoro </h5>
-                      <p class="card-text m-8"> Pemuda santuy dan suka tewas di kelas. Namun, Dia memiliki semangat yang luar biasa di bidang IT ...</p>
-                      <a href="#" class="btn btn-success">READ MORE!</a>
-                  </div>
-              </div>
-           </div>
-    
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-
-          <!-- Card Container -->
-        <div class="container">
-          <div class="row mt-3">
-    
-            <!-- Card Content -->
-            <div class="col-md-4 ">
-                <div class="card mb-5">
-                    <img src="Logo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Mochammad Enrique Lazuardi R </h5>
-                        <p class="card-text m-8">Ingin menjadikan yang tidak mungkin menjadi mungkin dan memiliki tekad besar di bidang IT ... </p>
-                        <a href="#" class="btn btn-success">READ MORE!</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-md-4">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Qolbi Adi Lumintang</h5>
-                      <p class="card-text m-8"> Seorang yang aktif dalam segala hal dan HP Blackcherry adalah kesukaannya apalagi yang RAM nya 6GB :) ... </p>
-                      <a href="#" class="btn btn-success">READ MORE!</a>
-                  </div>
-              </div>
-            </div>
-    
-            <div class="col-md-4">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Jaihan Abidin </h5>
-                      <p class="card-text m-8"> Ia Tak ingin banyak komentar. Lebih banyak tindakan daripada bicara serta pantang menyerah adalah motto yang dia sukai ... </p>
-                      <a href="#" class="btn btn-success">READ MORE!</a>
-                  </div>
-              </div>
-           </div>
-    
-          </div>
-        </div>
-
-      </div>
-
-      <div class="carousel-item">
-
-         <!-- Card Container -->
-         <div class="container">
-          <div class="row mt-3">
-    
-            <!-- Card Content -->
-            <div class="col-md-4 ">
-                <div class="card mb-5">
-                    <img src="Logo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Abdul Kharis Ardiansyah</h5>
-                        <p class="card-text m-8">Entah dia adalah seorang Hacker atau pencoba membobol situs *****. Tapi dia suka melakukan hal di terminal laptopnya ... </p>
-                        <a href="#" class="btn btn-success">READ MORE!</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-md-4 ">
-              <div class="card mb-5">
-                  <img src="Logo.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Coming Soon</h5>
-                      <p class="card-text m-8"> Ut rebum ea sea ipsum diam rebum kasd consetetur ea et. Magna et duo vero nonumy est. Dolor dolore sadipscing.<br>
-                        Akan ada developer baru disini. Sambut dengan baik ya??  </p>
-                      <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-md-4 ">
-            <div class="card mb-5">
-                <img src="Logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Coming Soon</h5>
-                    <p class="card-text m-8"> Ut rebum ea sea ipsum diam rebum kasd consetetur ea et. Magna et duo vero nonumy est. Dolor dolore sadipscing.<br>
-                      Akan ada developer baru disini. Sambut dengan baik ya??  </p>
-                    <!-- <a href="#" class="btn btn-success">READ MORE!</a> -->
-                </div>
-            </div>
-          </div>
-    
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#Gallery" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#Gallery" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <!-- End of Gallery -->
-
-  <!-- Footer -->
-  <section>
-    <div class="section2">
-        <p>Create by CLOW. Registered since 2018</p>
-    </div>
-  </section>
-  <!-- End of Footer -->
-
-  
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-
-  <!-- Additional Javascript -->
-  <!-- You can activate this JavaScript after Code! -->
-  <script src="js/script.js"></script>
-
-  
+    <!-- Additional Javascript -->
+    <!-- You can activate this JavaScript after Code! -->
+    <script src="js/script.js"></script>
 
 </html>
