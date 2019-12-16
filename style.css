@@ -10,8 +10,8 @@ body{
 }
 
 .jumbotron img {
-    height : auto; 
-    width : 1039px;
+    height: auto; 
+    width: 100%;
     background-size: cover;
     margin-top: 30px ;
 }
