@@ -1,2 +1,2 @@
 document.querySelector(".third")
-    swal("Selamat Datang di CLOW", "Mohon Maaf atas ketidaknyamanan anda!", "error");
+    swal("Selamat Datang di CLOW", "Mohon Maaf atas ketidaknyamanan anda!", "info");
